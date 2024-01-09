@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: Nunito, sans-serif;
+  background: #f5f6f7;
+}
+
+main {
+  max-width: 30rem;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+main > h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.edit-item {
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.4rem;
+}
+
+.edit-item input {
+  display: block;
+  margin: 0.3rem auto;
+  width: 20rem;
+  padding: 0.5rem;
+  border: 1px solid #00b8e6;
+  border-radius: 0.4rem;
+  outline: none;
+}
+
+.edit-item button {
+  width: 10rem;
+  padding: 0.7rem;
+  border: 1px solid #00b8e6;
+  background: #00b8e6;
+  color: #fff;
+  border-radius: 20px;
+  margin-top: 1rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.edit-item a {
+  width: 10rem;
+  padding: 0.5em;
+  border: 1px solid #00b8e6;
+  background: #00b8e6;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  margin-top: 1rem;
+  outline: none;
+}
+
+.item button {
+  padding: 0.5rem 1.7rem;
+  border: 1px solid #e06a6a;
+  background: #e06a6a;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+  height: 40px;
+  margin-left: 5px;
+}
+
+.edit-item button:hover {
+  background: #0093b8;
+}
+
+.edit-item a:hover {
+  background: #0093b8;
+}
+
+.edit-item button:disabled {
+  background: #d8d8d8;
+  border: 1px solid #d8d8d8;
+  cursor: not-allowed;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 0.4rem;
+}
+
+.item:not(:last-child) {
+  border-bottom: 2px solid #f5f6f7;
+}
+
+.item h1 {
+  color: #222;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.item p {
+  padding-right: 1rem;
+  color: #444;
+}
+
+.item a {
+  padding: 0.5rem 1.7rem;
+  border: 1px solid #0093b8;
+  background: #0093b8;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.item button:hover {
+  background: #e06a6a;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex select {
+  border: 1px solid #00b8e6;
+  border-radius: 0.4rem;
+  height: 2rem;
+  margin: 0.3rem auto;
+  width: 21rem;
+}
+
+.flex label {
+  margin-right: 1rem;
+  width: 6rem;
+}
+
+.flex input.checkbox {
+  width: 1rem;
+  margin-left: 0px;
+}
+
+.flex label.checkbox {
+  padding-left: 0.5rem;
+}
+
+.edit-item .flex {
+  width: 100%;
+}
